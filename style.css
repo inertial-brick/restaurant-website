@@ -1,0 +1,25 @@
+li{
+    display: inline;
+    px;
+
+}
+.burger{
+    outline: 2px solid black;
+    background-image: url(pictures/hamburger.jfif);
+    padding: 200px 50px;
+    margin: auto;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:0em;
+}
+    .burger, p, h1{
+    
+    }
+    .bestdish{
+        background-image: url(pictures/best.jfif);
+        padding:300px 200px ;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: auto ;
+    }
