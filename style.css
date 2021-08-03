@@ -12,7 +12,7 @@ p {
   margin: 0;
 }
 
-/* -------------------- BANNER -------------------- */
+/* -------------------- NAVIGATION BAR -------------------- */
 
 .navbar {
   background-color: #ffffff;
@@ -39,6 +39,8 @@ p {
   padding: 10px 35px;
   border: 1px solid #ea462b;
 }
+
+/* -------------------- BANNER -------------------- */
 
 .banner-section {
   box-sizing: border-box;
@@ -112,26 +114,83 @@ p {
   text-align: center;
 }
 
-/* -------------------- POPULAR MEALS -------------------- */
+/* -------------------- POPULAR DISHES -------------------- */
 
-.popular-dishes {
-  margin: 0em;
-  padding: 0em;
+.popular-dishes-section {
+  box-sizing: border-box;
+  padding: 100px 250px;
+  background-repeat: no-repeat;
+  background-image: url("./pictures/popular-dishes-background.jpg");
+  display: flex;
+  flex-direction: column;
 }
 
-.popular {
+.popular-dishes-header {
+  margin-bottom: 50px;
+}
+
+.popular-dishes-title {
   text-align: center;
-  display: block;
+  font-weight: bold;
   font-size: 50px;
-  color: #232923;
+  color: #23292c;
 }
 
-.try {
+.popular-dishes-caption {
   text-align: center;
-  font: 18px;
-  display: block;
+  font-size: 18px;
   color: #777777;
+}
+
+.popular-dishes-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  justify-items: center;
+}
+
+/* -------------------- POPULAR DISHES CARD -------------------- */
+
+.popular-dishes-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  background-color: #fafafa;
+  padding: 15px 30px 40px;
+  row-gap: 20px;
+}
+
+.popular-dishes-card-image {
+  height: 338px;
+  width: 290px;
+  border-radius: 10px;
+}
+
+.popular-dishes-card-title {
   font-size: 22px;
-  margin: 0;
-  padding: 0;
+  color: #23292c;
+  font-weight: bold;
+}
+
+.popular-dishes-card-description {
+  font-size: 16px;
+  text-align: center;
+  color: #777777;
+}
+
+.popular-dishes-card-price {
+  font-size: 24px;
+  text-align: center;
+  color: #ea462b;
+  font-weight: bold;
+}
+
+.popular-dishes-card-button {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 10px 35px;
+  border: 1px solid #ea462b;
 }
