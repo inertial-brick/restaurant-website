@@ -1,3 +1,5 @@
+/* -------------------- GENERAL -------------------- */
+
 html,
 body {
   width: 100%;
@@ -9,6 +11,8 @@ body {
 p {
   margin: 0;
 }
+
+/* -------------------- BANNER -------------------- */
 
 .navbar {
   background-color: #ffffff;
@@ -36,7 +40,7 @@ p {
   border: 1px solid #ea462b;
 }
 
-.banner {
+.banner-section {
   box-sizing: border-box;
   padding: 150px;
   height: 600px;
@@ -65,28 +69,31 @@ p {
   width: 170px;
   text-align: center;
 }
-.title-two {
-  color: #ffffff;
-  font-size: 62px;
-  font-weight: bold;
-}
-.banner-two {
+
+/* -------------------- DISH OF THE DAY -------------------- */
+
+.dish-of-day-section {
   box-sizing: border-box;
-  padding: 150px;
-  height: 600px;
+  padding: 100px 130px;
   background-repeat: no-repeat;
+  background-image: url("./pictures/dish-of-day-background.jpg");
   display: flex;
   row-gap: 20px;
   flex-direction: column;
-  background-image: url("./pictures/bannertwo.jpg");
 }
-h3 {
+
+.dish-of-day-caption {
   color: #aaaaaa;
   font-size: 22px;
-  margin: 0 0 10px;
-  line-height: 28px;
 }
-.price {
+
+.dish-of-day-title {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.dish-of-day-price {
   display: block;
   color: #ea462b;
   font-size: 70px;
@@ -94,31 +101,37 @@ h3 {
   margin-bottom: 35px;
   line-height: 60px;
 }
-.banner-buttontwo {
+
+.dish-of-day-cta {
   font-size: 18px;
   font-weight: bold;
-  padding: 10px 35px;
+  padding: 15px 15px;
   background-color: #ea462b;
   color: #ffffff;
   width: 170px;
   text-align: center;
 }
-.popular-dishes{
+
+/* -------------------- POPULAR MEALS -------------------- */
+
+.popular-dishes {
   margin: 0em;
   padding: 0em;
 }
+
 .popular {
   text-align: center;
   display: block;
   font-size: 50px;
   color: #232923;
 }
-.try{
+
+.try {
   text-align: center;
   font: 18px;
   display: block;
   color: #777777;
   font-size: 22px;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
