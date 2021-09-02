@@ -194,3 +194,36 @@ p {
   padding: 10px 35px;
   border: 1px solid #ea462b;
 }
+.reservation{
+  background-image: url("./pictures/book-a-table-img.jpg");
+  text-align: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 100px 130px;
+  background-repeat: no-repeat;
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+  background-position: center;
+  width: 100%;
+}
+.book-table{
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+.reservation-button{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 35px;
+  background-color: #ea462b;
+  color: #ffffff;
+  width: 170px;
+  text-align: center;
+  background-position: center;
+  margin: auto;
+  
+  
+
+}
